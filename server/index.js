@@ -37,4 +37,4 @@ const server = app.listen(process.env.PORT,()=>{
 //     })
 // // }
 
-// module.exports = connectToMongo;
+module.exports =mongoose.connect ;
